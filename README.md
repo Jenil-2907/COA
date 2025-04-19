@@ -5,16 +5,16 @@
 ---
 
 ## 🔗 Useful Links
-
+ **(Note that uaing any of the link first time may take some time as render put application in sleep due to inactivity)**
 - 🌐 **AssemblyX Web App**  
-  https://coa-hr8m.onrender.com  
+  https://coa-hr8m.onrender.com  (Login credentials: Username - test, Password - 123)
 - ⚙️ **Custom Flask API Server**  
   https://cloud-backend-gp5j.onrender.com
 
-> 📌 You can reuse this server in your own projects too!  
-> There's no public compiler API that supports all three: `x86`, `MIPS32`, and `ARM`.  
-> So if *you* find one, please share it with me too :)
-
+> 📌 You can reuse this server in your own projects if not the whole site because there is no publically available API keys to handle this three `x86`,`mips32`,`ARM`.
+> You can integrate it in any backend script like `flask`,`node.js`,`php`etc  Just like any other API.
+> 
+> More Help available in README of cloud_backned
 ---
 
 ## ⚙️ Tech Stack
@@ -57,12 +57,14 @@
 
 ---
 
-## Additional features
-Features that I failed to add because of time constraints and that anyone reading this can add are:
-1) Small animations of data movement in the registers and operations taking place for each line of the solutions that is provided, if you complised this then you can go a bit advance and try create dynamic 
-   animations for whatever code user writes.
-2) Some random fact bar where you can get a random fact about assembly everytime you click on it and also the link if available for that fact's topic
-3) In this web app I have done a bit of hard coding on questions and the solutions in flask script that is fine for small scale but if we want more question then it is not prefered and we can add some seperate 
-   admin login where they can add questions and their solutons (Also the login is of no use for the build that I have built cause no data storing of particular user is taking place).
+## 🔧 Additional Features
 
-"Anyways, these are some additions that I wished I could have added, but due to time constraints, I failed. Else, you have the internet and your imagination — you can add this or anything else as add-ons for this web app."
+Features that I failed to add because of time constraints and that anyone reading this can add are:
+
+1. Small animations of data movement in the registers and operations taking place for each line of the solutions that is provided. If you complete this, you can go a bit advanced and try creating dynamic animations for whatever code the user writes.  
+2. A random fact bar where you can get a new assembly fact every time you click on it, along with a link if available.  
+3. Currently, the questions and solutions are hardcoded in the Flask script — fine for small scale. But for more questions, we could add a separate admin login to manage them dynamically.  
+
+**Also, the login is of no use in this build, since no data is being stored for any user.**
+
+> "Anyways, these are some additions that I wished I could have added, but due to time constraints, I failed. Else, you have the internet and your imagination — you can add this or anything else as add-ons for this web app."
