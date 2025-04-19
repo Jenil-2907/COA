@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Useful Links
- **(Note that uaing any of the link first time may take some time as render put application in sleep due to inactivity)**
+ **(Note that using any of the link for the first time may take some time as render put application in sleep due to inactivity)**
 - 🌐 **AssemblyX Web App**  
   https://coa-hr8m.onrender.com  (Login credentials: Username - test, Password - 123)
 - ⚙️ **Custom Flask API Server**  
