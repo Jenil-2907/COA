@@ -124,7 +124,7 @@ def run_code():
     question_id = data.get('question_id', '')
 
     try:
-        response = requests.post("http://135.119.220.39:5001/execute", json={
+        response = requests.post("https://cloud-backend-gp5j.onrender.com/execute", json={
             "code": code,
             "architecture": architecture
         })
