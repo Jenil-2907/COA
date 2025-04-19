@@ -15,6 +15,8 @@
 > You can integrate it in any backend script like `flask`,`node.js`,`php`etc  Just like any other API.
 > 
 > More Help available in README of cloud_backned
+> [Link to Backend README](./cloudbackend/README.md)
+
 ---
 
 ## ⚙️ Tech Stack
